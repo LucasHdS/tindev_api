@@ -1,0 +1,28 @@
+{
+  "name": "tindev",
+  "version": "1.0.0",
+  "description": "tindev application's server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasHdS/tindev_api.git"
+  },
+  "author": "Lucas H. Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasHdS/tindev_api/issues"
+  },
+  "homepage": "https://github.com/LucasHdS/tindev_api#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
